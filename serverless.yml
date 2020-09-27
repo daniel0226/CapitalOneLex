@@ -1,0 +1,10 @@
+service: capital-one-lex
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  capitalOneLex:
+    handler: index.handler
+    name: serverless-hello-world
